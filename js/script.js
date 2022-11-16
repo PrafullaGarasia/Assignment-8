@@ -82,7 +82,7 @@ $(function () {
       if (!query) {
         cache.forEach(function (td) {
             td.element.style.backgroundColor = "";
-            td.element.style.cuolor = "black";
+            td.element.style.color = "black";
             $(td.element).siblings().css("background-color", "");
             $(td.element).siblings().css("color", "black")
         });
