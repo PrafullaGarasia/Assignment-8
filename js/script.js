@@ -83,8 +83,10 @@ $(function () {
       }
       if (!query) {
         cache.forEach(function (td) {
-          td.element.style.backgroundColor = "";
-          $(td.element).siblings().css("background-color", "")
+            td.element.style.backgroundColor = "";
+            td.element.style.Color = "black";
+            $(td.element).siblings().css("background-color", "")
+            $(td.element).siblings().css("color", "black")
         });
       }
     }
