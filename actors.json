@@ -1,61 +1,71 @@
 {
   "actors": [
     {
-      "name": "Chris Hemsworth",
+      "fname": "Chris",
+      "lname": "Hemsworth",
       "birthday": "1983-08-11",
       "gender": "Male",
       "married": "Yes"
     },
     {
-      "name": "Robert Downey Jr.",
+      "fname": "Robert",
+      "lname": "Downey Jr.",
       "birthday": "1965-04-04",
       "gender": "Male",
       "married": "Yes"
     },
     {
-      "name": "Scarlett Johansson",
+      "fname": "Scarlett",
+      "lname": "Johansson",
       "birthday": "1984-10-22",
       "gender": "Female",
       "married": "Yes"
     },
     {
-      "name": "Mark Ruffalo",
+      "fname": "Mark",
+      "lname": "Ruffalo",
       "birthday": "1967-10-22",
       "gender": "Male",
       "married": "Yes"
     },
     {
-      "name": "Tom Holland",
+      "fname": "Tom",
+      "lname": "Holland",
       "birthday": "1996-06-01",
       "gender": "Male",
       "married": "No"
     },
     {
-      "name": "Elizabeth Olsen",
+      "fname": "Elizabeth",
+      "lname": "Olsen",
       "birthday": "1989-02-16",
       "gender": "Female",
       "married": "Yes"
     },
     {
-      "name": "Chris Evans",
+      "fname": "Chris",
+      "lname": "Evans",
       "birthday": "1981-06-13",
       "gender": "Male",
       "married": "No"
     },
     {
-      "name": "Jeremy Renner",
+      "fname": "Jeremy",
+      "lname": "Renner",
       "birthday": "1971-01-07",
       "gender": "Male",
       "married": "Yes"
     },
     {
-      "name": "Brie Larson",
+      "fname": "Brie",
+      "lname": "Larson",
       "birthday": "1989-10-01",
       "gender": "Female",
       "married": "No"
     },
     {
-      "name": "Lexi Rabe",
+      "fname": "Lexi",
+      "lname": "Rabe",
       "birthday": "2012-07-16",
       "gender": "Female",
       "married": "No"

@@ -11,7 +11,7 @@ $(function () {
       $row.append($('<td></td>').text(value.married));
       $tableBody.append($row);
 
-      if (data.actors[index].name.charAt(0) <= "N") {
+      if (data.actors[index].lname.charAt(0) <= "N") {
         array1.push(data.actors[index]);
       } else {
         array2.push(data.actors[index]);
@@ -91,7 +91,7 @@ $(function () {
     }
 
     let compare = {
-      name: function (a, b) {
+      lname: function (a, b) {
 
         if (a < b) {
           return -1;
