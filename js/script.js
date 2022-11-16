@@ -69,8 +69,10 @@ $(function () {
           let index = 0;
           index = td.text.indexOf(query);
           if (index === -1) {
-            $(td.element).siblings().css("background-color", "")
-            $(td.element).css("background-color", "")
+              $(td.element).siblings().css("background-color", "")
+              $(td.element).siblings().css("color", "black")
+              $(td.element).css("background-color", "")
+              $(td.element).css("color", "black")
           } else {
               $(td.element).siblings().css("background-color", "green")
               $(td.element).siblings().css("color", "white")
