@@ -13,14 +13,14 @@
       "married": "Yes"
     },
     {
-      "name": "Shah Rukh Khan",
-      "birthday": "1965-11-02",
-      "gender": "Male",
+      "name": "Scarlett Johansson",
+      "birthday": "1984-10-22",
+      "gender": "Female",
       "married": "Yes"
     },
     {
-      "name": "Amitabh Bachchan",
-      "birthday": "1942-10-11",
+      "name": "Mark Ruffalo",
+      "birthday": "1967-10-22",
       "gender": "Male",
       "married": "Yes"
     },
@@ -43,20 +43,20 @@
       "married": "No"
     },
     {
-      "name": "Chris Pratt",
-      "birthday": "1979-06-21",
+      "name": "Jeremy Renner",
+      "birthday": "1971-01-07",
       "gender": "Male",
       "married": "Yes"
     },
     {
-      "name": "Emma Watson",
-      "birthday": "1990-04-15",
+      "name": "Brie Larson",
+      "birthday": "1989-10-01",
       "gender": "Female",
       "married": "No"
     },
     {
-      "name": "Katrina Kaif",
-      "birthday": "1983-07-16",
+      "name": "Lexi Rabe",
+      "birthday": "2012-07-16",
       "gender": "Female",
       "married": "No"
     }
