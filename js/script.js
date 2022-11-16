@@ -5,14 +5,14 @@ $(function () {
     let array2 = [];
     $.each(data.actors, function (index, value) {
       let $row = $('<tr></tr>');
-        $row.append($('<td></td>').text(value.fname));
-        $row.append($('<td class="name"></td>').text(value.lname));
+        $row.append($('<td class="fname"></td>').text(value.name));
+        $row.append($('<td></td>').text(value.name));
       $row.append($('<td></td>').text(value.gender));
       $row.append($('<td></td>').text(value.birthday));
       $row.append($('<td></td>').text(value.married));
       $tableBody.append($row);
 
-      if (data.actors[index].lname.charAt(0) <= "N") {
+      if (data.actors[index].fname.charAt(0) <= "N") {
         array1.push(data.actors[index]);
       } else {
         array2.push(data.actors[index]);
@@ -72,8 +72,10 @@ $(function () {
             $(td.element).siblings().css("background-color", "")
             $(td.element).css("background-color", "")
           } else {
-            $(td.element).siblings().css("background-color", "yellow")
-            $(td.element).css("background-color", "yellow")
+              $(td.element).siblings().css("background-color", "green")
+              $(td.element).siblings().css("color", "white")
+              $(td.element).css("background-color", "green")
+              $(td.element).css("color", "white")
           }
         });
       }
@@ -92,7 +94,7 @@ $(function () {
     }
 
     let compare = {
-      lname: function (a, b) {
+      fname: function (a, b) {
 
         if (a < b) {
           return -1;
