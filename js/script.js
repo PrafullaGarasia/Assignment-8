@@ -72,8 +72,10 @@ $(function () {
             $(td.element).siblings().css("background-color", "")
             $(td.element).css("background-color", "")
           } else {
-            $(td.element).siblings().css("background-color", "green")
-            $(td.element).css("background-color", "green")
+              $(td.element).siblings().css("background-color", "green")
+              $(td.element).siblings().css("color", "white")
+              $(td.element).css("background-color", "green")
+              $(td.element).css("color", "white")
           }
         });
       }
