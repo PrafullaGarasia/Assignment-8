@@ -5,7 +5,8 @@ $(function () {
     let array2 = [];
     $.each(data.actors, function (index, value) {
       let $row = $('<tr></tr>');
-      $row.append($('<td class="name"></td>').text(value.name));
+        $row.append($('<td></td>').text(value.fname));
+        $row.append($('<td class="name"></td>').text(value.lname));
       $row.append($('<td></td>').text(value.gender));
       $row.append($('<td></td>').text(value.birthday));
       $row.append($('<td></td>').text(value.married));
