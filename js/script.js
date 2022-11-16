@@ -5,8 +5,8 @@ $(function () {
     let array2 = [];
     $.each(data.actors, function (index, value) {
       let $row = $('<tr></tr>');
-        $row.append($('<td class="fname"></td>').text(value.name));
-        $row.append($('<td></td>').text(value.name));
+        $row.append($('<td class="name"></td>').text(value.fname));
+        $row.append($('<td></td>').text(value.lname));
       $row.append($('<td></td>').text(value.gender));
       $row.append($('<td></td>').text(value.birthday));
       $row.append($('<td></td>').text(value.married));
@@ -72,10 +72,8 @@ $(function () {
             $(td.element).siblings().css("background-color", "")
             $(td.element).css("background-color", "")
           } else {
-              $(td.element).siblings().css("background-color", "green")
-              $(td.element).siblings().css("color", "white")
-              $(td.element).css("background-color", "green")
-              $(td.element).css("color", "white")
+            $(td.element).siblings().css("background-color", "green")
+            $(td.element).css("background-color", "green")
           }
         });
       }
