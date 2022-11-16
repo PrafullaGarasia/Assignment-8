@@ -1,0 +1,64 @@
+{
+  "actors": [
+    {
+      "name": "Chris Hemsworth",
+      "birthday": "1983-08-11",
+      "gender": "Male",
+      "married": "Yes"
+    },
+    {
+      "name": "Robert Downey Jr.",
+      "birthday": "1965-04-04",
+      "gender": "Male",
+      "married": "Yes"
+    },
+    {
+      "name": "Shah Rukh Khan",
+      "birthday": "1965-11-02",
+      "gender": "Male",
+      "married": "Yes"
+    },
+    {
+      "name": "Amitabh Bachchan",
+      "birthday": "1942-10-11",
+      "gender": "Male",
+      "married": "Yes"
+    },
+    {
+      "name": "Tom Holland",
+      "birthday": "1996-06-01",
+      "gender": "Male",
+      "married": "No"
+    },
+    {
+      "name": "Elizabeth Olsen",
+      "birthday": "1989-02-16",
+      "gender": "Female",
+      "married": "Yes"
+    },
+    {
+      "name": "Chris Evans",
+      "birthday": "1981-06-13",
+      "gender": "Male",
+      "married": "No"
+    },
+    {
+      "name": "Chris Pratt",
+      "birthday": "1979-06-21",
+      "gender": "Male",
+      "married": "Yes"
+    },
+    {
+      "name": "Emma Watson",
+      "birthday": "1990-04-15",
+      "gender": "Female",
+      "married": "No"
+    },
+    {
+      "name": "Katrina Kaif",
+      "birthday": "1983-07-16",
+      "gender": "Female",
+      "married": "No"
+    }
+  ]
+}
